@@ -6,25 +6,25 @@ public class Auto {
     String marca;
     Motor motor;
     int registro; 
-    static int cantidadcreados;
+    static int cantidad_Creados;
     
-    int cantidadAsientos(){ 
+    int cantidad_Asientos(){ 
     
         int numAsientos=0;
-        for (int i =0; i<asientos.length; i++){
+        for (int i =0; i<asientos.length; i+=1){
         
                 if (asientos[i]!=null)
                 {
-                    numAsientos++;
+                    numAsientos+=1;
                 }
         }
         return numAsientos;
     }
-    String verificarIntegridad()
+    String verificar_Integridad()
     {   
         if (registro==motor.registro)
         {    
-            for (int i=0;i<asientos.length;i++)
+            for (int i=0;i<asientos.length;i+=1)
             {
                 if(asientos[i]!=null)
                 {    
@@ -42,6 +42,3 @@ public class Auto {
 }
      
      
-    
-    
-

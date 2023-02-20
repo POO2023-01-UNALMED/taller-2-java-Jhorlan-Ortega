@@ -1,8 +1,4 @@
-package TALLER_2_JAVA;
-
-
-
-
+package test;
 public class Motor {
     int numeroCilindros;
     String tipo;

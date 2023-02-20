@@ -1,11 +1,4 @@
-package TALLER_2_JAVA;
-
-
-import TALLER_2_JAVA.Asiento;
-
-
-
-
+package test;
 public class Auto {
     String modelo; 
     int precio; 

@@ -8,7 +8,7 @@ public class Auto {
     int registro; 
     static int cantidad_Creados;
     
-    int cantidad_Asientos(){ 
+    int cantidadAsientos(){ 
     
         int numAsientos=0;
         for (int i =0; i<asientos.length; i+=1){
@@ -20,7 +20,7 @@ public class Auto {
         }
         return numAsientos;
     }
-    String verificar_Integridad()
+    String verificarIntegridad()
     {   
         if (registro==motor.registro)
         {    

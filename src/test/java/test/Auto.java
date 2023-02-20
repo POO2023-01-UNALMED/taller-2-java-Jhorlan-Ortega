@@ -8,7 +8,7 @@ public class Auto {
     int registro; 
     static int cantidadcreados;
     
-    public int cantidadAsientos(){ //Metodo constructor
+    int cantidadAsientos(){ 
     
         int numAsientos=0;
         for (int i =0; i<asientos.length; i++){
